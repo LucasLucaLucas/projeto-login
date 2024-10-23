@@ -31,7 +31,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #392929;
-    width: 258px;
+    width: 268px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -59,4 +59,55 @@ h1 {
 p {
     color: white;
     font-size: 0.8em;
+    padding: 10px;
+}
+
+ input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;   
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+input[type=submit]:hover {
+    background-color: #FFE5B2;
+    cursor: pointer;
+}
+
+
+input[type=reset] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;   
+    border-radius: 5px;
+  
+} 
+input[type=reset]:hover {
+    background-color: #FFE5B2;
+    cursor: pointer;
+
+}
+
+div.campo > label {
+    color: white;
+    padding: 3px;
+    
+    
+}
+
+form > div.campo {
+    margin: 5px 0px;
+    display: block;
+    border-radius: 5px;
+ 
+}
+
+
+input[type=e-mail] {
+    border-radius: 100px;
 }
